@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Welcome to my developer blog!"
+date:   2019-05-17 16:45:04 +0200
+categories: personal
+---
+
+## Welcome to my developer blog!
+
+### Introduction
+I am Evaldas Latoškinas, currently a first year Computer Science & Engineering international student in the Netherlands at TU Delft.
+Originally, I come from Vilnius, Lithuania.
+
+#### My Interests && Hobbies
+
+My main interest, broadly, is programming and development. Right now, I try to expose myself to as many
+fields in Computer Science as possible to see what I love the most, but so far, Software Engineering seems to be the direction
+that I am generally steering towards.
+
+As far as my hobbies go, I am an avid music listener, and tend to explore a variety of different genres and artists, and
+always keep an open mind when looking for new music.
+
+Another hobby of mine is 3D modelling, which I mainly combine with my passion for development by using the 3D models
+that I have created for my personal game projects.
+
+Lastly, I also have a bit of history with Graphic Design, which I was involved in as an enthusiast, but also as a freelancer 3-4 years ago.
+However, in the end, I have decided that development is my stronger passion and something I am more skilled in,
+therefore it now simply remains a hobby and a nice skill to have.
+
+### What this blog is about
+This blog will involve various status updates on my development process, which will mostly be about my publicly
+available projects that I am working on, as well as sneak peeks of some private projects that will be released
+at some point! What might also be expected is some career-oriented and some personal blog posts, however, everything
+will generally revolve around development.
+
+I also have a separate [blog][enlighten-works] for my released mobile apps and games, as well as a [personal website][personal-website].
+However, this blog will be more personal. It will generally involve quite a bit of my personal remarks, which is different from my website
+or my application release blog, both of which intend to give a neutral view by just providing information.
+
+#### My experience
+The areas of programming I have been mainly involved so far include:
+
+* Android development
+* Unity3D game development
+* Java desktop development
+* JavaScript web application development
+* Algorithmic challenges, for which I prefer to use C++
+* Delving into Data Science using Python
+* Assembly programming
+
+However, since I am quite adventurous and like to change direction often, you may expect quite a lot of variety in this blog!
+
+
+**Stay tuned for more!**
+
+[personal-website]: https://lightingft.github.io/
+[enlighten-works]: http://enlightenworks.blogspot.com/
