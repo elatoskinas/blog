@@ -5,8 +5,6 @@ date:   2019-05-17 16:45:04 +0200
 categories: personal
 ---
 
-## Welcome to my developer blog!
-
 ### Introduction
 I am Evaldas Latoškinas, currently a first year Computer Science & Engineering international student in the Netherlands at TU Delft.
 Originally, I come from Vilnius, Lithuania.
