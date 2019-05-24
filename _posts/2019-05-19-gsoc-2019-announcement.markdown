@@ -2,7 +2,7 @@
 layout: post
 title:  "Google Summer of Code with App Inventor"
 date:   2019-05-19 01:37:00 +0200
-categories: gsoc2019
+categories: GSoC
 ---
 
 Although some time has passed, I am highly excited to announce that this summer, I have been accepted into the [Google Summer of Code 2019][gsoc] program!

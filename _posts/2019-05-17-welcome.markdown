@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to my developer blog!"
 date:   2019-05-17 16:45:04 +0200
-categories: personal
+categories: General
 ---
 
 ### Introduction
