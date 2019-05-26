@@ -24,9 +24,9 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
+# Homepage
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-
 
 # Post settings
 defaults:
