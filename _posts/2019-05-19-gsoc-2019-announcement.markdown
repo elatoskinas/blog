@@ -3,6 +3,7 @@ layout: posts
 title:  "Google Summer of Code with App Inventor"
 date:   2019-05-19 01:37:00 +0200
 categories: Open Source
+tags: open-source gsoc appinventor project announcement
 ---
 
 ![Google Summer of Code Logo](https://upload.wikimedia.org/wikipedia/commons/8/85/GSoC-icon.svg){: .align-center width="300px"}
