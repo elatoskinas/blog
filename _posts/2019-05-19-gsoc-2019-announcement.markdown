@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Google Summer of Code with App Inventor"
 date:   2019-05-19 01:37:00 +0200
 categories: GSoC
