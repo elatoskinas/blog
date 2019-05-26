@@ -2,8 +2,10 @@
 layout: posts
 title:  "Google Summer of Code with App Inventor"
 date:   2019-05-19 01:37:00 +0200
-categories: GSoC
+categories: Open Source
 ---
+
+![Google Summer of Code Logo](https://upload.wikimedia.org/wikipedia/commons/8/85/GSoC-icon.svg){: .align-center width="300px"}
 
 Although some time has passed, I am highly excited to announce that this summer, I have been accepted into the [Google Summer of Code 2019][gsoc] program!
 This is truly an exciting moment and a huge milestone for me personally, and a very fun and productive summer awaits!
@@ -14,6 +16,8 @@ to organizations by proposing projects. After being accepted, students spend the
 project.
 
 ### Project
+![App Inventor Logo](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F61537230%2F30501861831%2F1%2Foriginal.20190501-220337?w=800&auto=compress&rect=0%2C15%2C700%2C350&s=39a8201164e1a1df2732b4b1b6c2d2a1){: .align-center height="300px"}
+
 The [project][project-link] that I will be working on this summer is implementing Chart Components in [App Inventor][appinventor-github], an open-source platform
 which is intended to make Android application development accessible and easy to accomplish via a web interface. App Inventor is used worldwide by casual enthusiasts,
 students in both schools and universities, teachers as well as advanced application developers. More information can be found on the [App Inventor website][appinventor-web].
@@ -109,6 +113,10 @@ focused on this project!
 
 **Stay tuned for more updates!**
 
+#### Sources
+[Google Summer of Code Logo](https://en.wikipedia.org/wiki/Google_Summer_of_Code)
+<br>
+[App Inventor Logo](https://www.eventbrite.com/e/mit-app-inventor-summit-2019-tickets-61195446227)
 
 [gsoc]: https://summerofcode.withgoogle.com/
 [project-link]: https://summerofcode.withgoogle.com/projects/?sp-page=2#5496355911368704
