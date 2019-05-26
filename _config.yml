@@ -30,6 +30,26 @@ plugins:
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 
+# Author
+author:
+  name: "Evaldas Latoškinas"
+  avatar: "/assets/images/avatar.png"
+  bio: "Hobbyist programmer, first year CS&E student, sole member & founder of Enlighten Works"
+  location: "Delft, Netherlands"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://lightingft.github.io/"
+    - label: "Enlighten Works blog"
+      icon: "fab fa-blogger"
+      url: "http://enlightenworks.blogspot.com/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/lightingft"
+    - label: "Google Play"
+      icon: "fab fa-google-play"
+      url: "https://play.google.com/store/apps/developer?id=Enlighten+Works"
+
 # Post settings
 defaults:
   # _posts
