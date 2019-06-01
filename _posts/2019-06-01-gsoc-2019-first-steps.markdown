@@ -22,12 +22,12 @@ gallery:
 
 ## Overview
 During the initial steps of the project to develop Chart Components for [App Inventor][appinventor], the major focus was on the design of the components
-such that there is an agreement between different parties that use App Inventor, including the developer team, staff members, representatives in education
-as well as active users of the App Inventor community.
+such that there is an agreement between different parties that use and work on App Inventor, including the developer team, staff members, representatives
+in education departments as well as active users of the App Inventor community.
 
-After making a few important design decisions, the goal is then to make a few prototypes to show to the developer team to make some final decisions on how
-the interaction with the components works, how they should be implemented and what other design features should be taken into account. This will be covered
-in a subsequent blog post.
+After making a few important design decisions, the goal is then to make a few prototypes for presentation purposes to make some final decisions on how
+the interaction with the components works, how they should be implemented and what other design features should be taken into account. I will touch upon
+prototyping in a subsequent blog post.
 
 ## Design
 Designing is a process that can last as long as the project is maintained and worked on, and as such, the designs made in the early stages of the project are
@@ -36,8 +36,8 @@ nowhere near to being finished. However, a general, broad view of some important
 ### Libraries
 Part of the design was choosing the libraries to represent the Charts. A bit of context on App Inventor to the unfamiliar readers -- the components in App Inventor
 are basically separated into two graphical parts - the one that is seen when actually creating the applications in the browser, and the one that actually appears
-when using the application in Android. Due to App Inventor running on GWT, and the Android platform being completely separate from the browser, the components
-graphically are actually two different components which are made to look alike.
+when using the application in Android. Due to App Inventor running on GWT (a web-based platform), and the Android platform being completely separate from the browser,
+the components internally are actually separate and require their own code (one part for Android, one part for GWT), and they are typically made to look alike.
 
 This posed quite a difficult challenge to decide on the libraries. Initially, there were thoughts of finding a library supporting both the web and Android.
 However, that proved to be basically unachievable for an open source project, due to most cross-platform libraries being targeted at commercial users.
@@ -45,13 +45,13 @@ However, that proved to be basically unachievable for an open source project, du
 The final decision was then to use two different libraries. For Android, we decided to use [MPAndroidChart][mpandroidchart], a well-supported, highly documented and up-to-date
 Android charting library.
 
-As for the Web, the decision is yet to be made. But the general idea that we will likely take is using a JavaScript-based library and adapting it to GWT.
+As for the Web, the decision is yet to be made. But the general idea that we will likely take is using a JavaScript-based library and adapting it to [GWT][gwt].
 
 Having two different libraries in the end proved to be somewhat an advantage, since the variety of Charting libraries is quite vast.
 
 ### Defining Chart Data
 A simple approach that I took when starting to design is to define how Chart data should be interpreted. One of the key goals set for the project was that a Chart could contain more
-than one series of data, meaning a Line Chart could contain more than one line, for example.
+than one series of data, meaning a Line Chart could have more than one line, for example.
 
 Throughout this blog post, I would like to define a few terms that I will use throughout (although they might not be fully accurate):
 * **Chart Component** - the central component that handles the GUI and references (or holds) all of the data. Examples of a Chart component are
@@ -120,7 +120,7 @@ Although there is still quite a way to go before beginning to deal with non-manu
 
 {% include figure image_path="/assets/images/posts/gsoc2019/design/DataSetDataImporting.png" alt="Data Set importing options image" caption="Data Set data import" %}
 
-Details on this will follow, and this design is in an early stage.
+Details on this will follow, as this design is in an early stage.
 
 
 ## Next steps
@@ -131,3 +131,4 @@ feedback. The next blog post will cover some development details of the prototyp
 
 [appinventor]: https://appinventor.mit.edu/explore/
 [mpandroidchart]: https://github.com/PhilJay/MPAndroidChart
+[gwt]: http://www.gwtproject.org/
