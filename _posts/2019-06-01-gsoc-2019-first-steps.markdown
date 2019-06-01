@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "App Inventor Chart Component: First Steps"
+title:  "App Inventor Chart Components: First Steps"
 date:   2019-06-01 22:37:00 +0200
 category: Open Source
 tags: open-source gsoc appinventor project
