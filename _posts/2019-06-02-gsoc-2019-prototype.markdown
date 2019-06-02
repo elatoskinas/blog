@@ -243,7 +243,7 @@ style it to look similar to the MPAndroidChart representation (although styling 
 priority right now, more can be done on that part) and add functionality to respond to changes.
 
 The end result is summarized in this gif:
-![Mock Component Preview](/assets/images/posts/gsoc2019/preview/MockChartCharbaPreview.gif)
+<a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/MockChartCharbaPreview.gif"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/MockChartCharbaPreview.gif"></a>
 
 **Stay tuned for more!**
 
