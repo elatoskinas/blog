@@ -60,7 +60,7 @@ Line Charts, Bar Charts, Pie Charts, etc.
 * **Data Set Collection** - a set of Data Sets that belong to one data. For example, this would be all the lines in a single Line Chart.
 
 For a visual representation of how the data would be interpreted, here are some examples:
-{% include figure image_path="/assets/images/posts/gsoc2019/design/ChartDataSetExample.PNG" alt="Line Chart with 3 lines" caption="Line Chart with 3 data sets" %}
+{% include figure image_path="/assets/images/posts/gsoc2019/design/ChartDataSetExample.png" alt="Line Chart with 3 lines" caption="Line Chart with 3 data sets" %}
 
 {% include figure image_path="/assets/images/posts/gsoc2019/design/ChartDataSetRepresentation.png" alt="Table translation to Line Chart" caption="Table translation to Line Chart" %}
 

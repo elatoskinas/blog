@@ -31,20 +31,20 @@ With these features in mind, let's first look at the differences between the two
 The left images correspond to the 2 Component model, and the right images correspond to the 1 Component model.
 
 <figure class="half">
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/CategoryChartandData.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/CategoryChartandData.png"></a>
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/CategoryChartOnly.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/CategoryChartOnly.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/CategoryChartandData.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/CategoryChartandData.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/CategoryChartOnly.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/CategoryChartOnly.png"></a>
     <figcaption>Difference in Component selection</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/LineChartProperties.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/LineChartProperties.png"></a>
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/LineChartNoDataProperties.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/LineChartNoDataProperties.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/LineChartProperties.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/LineChartProperties.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/LineChartNoDataProperties.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/LineChartNoDataProperties.png"></a>
     <figcaption>Difference in Properties (note the ChartData property)</figcaption>
 </figure>
 
 <figure class="half">
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockData.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockData.png"></a>
-    <a href="/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockChart.png"><img src="/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockChart.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockData.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockData.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockChart.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/prototype/EntryAddingBlockChart.png"></a>
     <figcaption>Difference in blocks (note that the AddEntry block is on the Chart on the right)</figcaption>
 </figure>
 
