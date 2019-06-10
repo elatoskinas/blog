@@ -65,11 +65,14 @@ visual feedback to the user on how the Data would look like.
 <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/workflow/DataStylingColorLabel.gif"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/workflow/DataStylingColorLabel.gif" alt="Designer Data component property responsiveness animation"></a>
 
 ### Android Chart Properties
-Remember that the Charts are different in Android than in the browser. In Android, if we apply some data properties to our Line Chart, currently it will look as follows:
+Since the Charts are different in Android than in the browser, they require a different implementation.
+In Android, if we apply some data properties to our Line Chart, currently it will look as follows:
 
 <figure class="half">
   <a href="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/workflow/MultipleDataSeriesBasicStyling.png"><img src="{{ site.baseurl }}/assets/images/posts/gsoc2019/preview/workflow/MultipleDataSeriesBasicStyling.png" alt="Android multiple Data Series properties example image"></a>
 </figure>
+
+In the future, the Designer Chart components and the Android Chart components will be made to look more alike. But for now, the similarity is quite close.
 
 ### Data Adding
 Support has also been added to allow the User to quickly enter some data in a form field to add to the Chart. For now, this is quite basic, and only y-values can be specified,
