@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "App Inventor Chart Components: Workflow Preview"
-date:   2019-06-02 01:47:00 +0200
+date:   2019-06-10 01:47:00 +0200
 category: Open Source
 tags: open-source gsoc appinventor project
 ---
