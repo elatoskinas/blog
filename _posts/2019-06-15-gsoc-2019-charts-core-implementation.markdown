@@ -10,8 +10,10 @@ tags: open-source gsoc appinventor project
 In the last post, I have previewed the [workflow]({% post_url 2019-06-10-gsoc-2019-workflow-preview %}) of the Charts components that I am working on
 for [App Inventor][appinventor]. In this post, I will dive into some implementation details and design choices.
 
+For the curious readers, the code changes revolving this post are available in a [pull request][charts-data-core-pr].
+
 ## Core Issue
-The toughest aspect of designing the Chart components is making the workflow intuitive and providing easy and good useability to the users.
+The toughest aspect of designing the Chart components is making the workflow intuitive and providing easy and good usability to the users.
 The main issue that I encountered while developing the core features is adapting to the defined specifications of presenting the components
 to the users.
 
@@ -165,7 +167,7 @@ public abstract class ChartDataBase implements Component {
 
 Looking at ChartDataBase, one thing to notice right away that there are no generic parameters here.
 The Chart and the Model object instances both use the abstract types, since in the controller, we do not
-really care rabout the underlying subclass type.
+really care about the underlying subclass type.
 
 In the constructor, note the line that creates the ChartModel. Essentially, following from the previous
 section, it can now be seen that the ChartModel will indeed be instantiated and set to the right type,
@@ -200,8 +202,8 @@ public final class CoordinateData extends ChartDataBase {
 }
 {% endhighlight %}
 
-CoordinateData was created with the intention of storing x and y coordinates as the data. For now it was kept simple, and
-only one method was added, which is adding an entry based on the specified x and y parameaters. Note again how the adding
+CoordinateData was created with the intention of storing x and y coordinates as the data. For now, it was kept simple, and
+only one method was added, which is adding an entry based on the specified x and y parameters. Note again how the adding
 of data is propagated up to the model to handle the data logic.
 
 ### Model class
@@ -260,7 +262,7 @@ One interesting point to make is the abstract addEntry method. This is, in fact,
 class, and there might be data models that would not have an (x, y) parameters as a valid
 options for the addEntry method. However, we need it in the abstract method so the controller
 could call the functionality directly. The idea I have thought of applying later is simply
-throwing an exception in the overriden method if the option is not supported.
+throwing an exception in the overridden method if the option is not supported.
 
 {% highlight java %}
 public class LineChartModel extends ChartModel<LineDataSet, LineData> {
@@ -316,7 +318,7 @@ that I will touch upon in this section.
 In order to make the Designer and Android Charts similar, some additional code is written to set options that would make the
 Designer Charts representative.
 
-Here is an example snippets, which should be fairly self-explanatory:
+Here is an example snippet, which should be fairly self-explanatory:
 {% highlight java %}
   chartWidget.getOptions().getTitle().setDisplay(true);
   chartWidget.getOptions().getLegend().getLabels().setBoxWidth(20);
@@ -326,8 +328,11 @@ Here is an example snippets, which should be fairly self-explanatory:
 Various other styling changes are done to make the Chart components similar across the Designer and Android.
 
 ### Attaching Data to the Chart
+Although the implementations of the Designer Charts and the Android Charts follow the same ideas,
+there are a few differences with regards to attaching Data components to the Chart.
 
-< TO BE FINISHED, COVER MockChartModel + MockChartData >
+First let's take a look at the abstract MockChartData class:
+
 
 {% highlight java %}
 public abstract class MockChartData extends MockVisibleComponent {
@@ -385,8 +390,91 @@ public abstract class MockChartData extends MockVisibleComponent {
 }
 {% endhighlight %}
 
+As one might notice, some things are very similar. We have the same Color and Label properties, we have
+Chart Model and Chart instances and we create the Chart Model in the same way as in the Android implementation.
+
+However, the adding of the Data components is a bit different. We have the addToChart method, which
+is called whenever the Data component is actually added to the Chart.
+
+The method initially hides the widget's UI representation. The reason we do this is because when we drag the
+Data component onto the Chart, it should perform an action, rather than be attached visually. But we
+want a visual representation of the widget so the user sees where they are dragging the Data.
+For now, this was made a labelWidget component (simply text) as a placeholder, which will most likely
+be changed to a representative image later on.
+
+The rest of the method sort of acts like a constructor. The reason for this is the fact that the component
+is only truly initialized when it has the Chart object that it relates to. The reason we do not put most
+of the code in the constructor is because the Data component is initialized even before it is added to the
+Chart (while dragging), so it sort of complicates the situation, and we need to move the code to the
+addToChart method.
+
+Finally, let's see how the Data component is actually added on to the Chart. First, let's look at the MockChart
+class:
+{% highlight java %}
+abstract class MockChart<C extends AbstractChart> extends MockContainer {
+
+    // ...
+
+    /**
+     * Creates a new instance of a visible component.
+     *
+     * @param editor editor of source file the component belongs to
+     * @param type  type String of the component
+     * @param icon  icon of the component
+     */
+    protected MockChart(SimpleEditor editor, String type, ImageResource icon) {
+        super(editor, type, icon, new MockChartLayout());
+    }
+}
+{% endhighlight %}
+
+First of all, note that the MockChart inherits from the MockContainer. A MockContainer in the App Inventor system
+is basically a UI component that contains multiple elements inside it. These multiple elements in our case
+are the Data components. In fact, what we are essentially doing is adding UI components inside the MockChart.
+While one may not think of the Data components as UI components, we need this representation for the reason mentioned above
+(Data components need a visual representation to guide the user)
+
+Then the other important part is the super() constructor call. Note the MockChartLayout instantiation, which we look at next:
+
+{% highlight java %}
+public class MockChartLayout extends MockLayout {
+
+    // ...
+
+    @Override
+    boolean onDrop(MockComponent source, int x, int y, int offsetX, int offsetY) {
+        if (source instanceof MockCoordinateData) {
+            container.addComponent(source);
+            ((MockCoordinateData)source).addToChart((MockChart) container);
+            return true;
+        }
+
+        return false;
+    }
+}
+{% endhighlight %}
+
+The MockChartLayout is essentially responsible for handling the layout that is inside the Chart component.
+Since we are dealing with a Container component here, it is a requirement to specify a Layout object instance
+to use for the Container. In this class, we typically specify some event handling for the children of the
+container.
+
+Now we get to the part where the drop functionality of the drag & drop process is handled. We have an
+onDrop event, with its own parameters.
+
+What this overridden method basically does is check if the component dropped onto the Chart is
+of the required type (a MockCoordinateData component, meaning we only support CoordinateData components
+for now). If the source is indeed a CoordinateData component, it is added to the container
+(meaning the Data component is added as a child to the Chart in the Designer) and the addToChart
+method discussed earlier is called form the Data component.
+
+## Stay tuned for more!
+This has been a rather in-depth explanation of the Chart workflow implementation. More updates will follow
+on the status of the project. Stay tuned!
+
 
 [appinventor]: https://appinventor.mit.edu/explore/
 [mpandroidchart]: https://github.com/PhilJay/MPAndroidChart
 [chartjs]: https://github.com/chartjs
 [mvc]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+[charts-data-core-pr]: https://github.com/lightingft/appinventor-sources/pull/37
