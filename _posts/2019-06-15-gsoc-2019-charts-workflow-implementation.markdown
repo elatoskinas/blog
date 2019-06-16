@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "App Inventor Chart Components: Charts Core Implementation"
+title:  "App Inventor Chart Components: Workflow Implementation"
 date:   2019-06-15 22:27:00 +0200
 category: Open Source
 tags: open-source gsoc appinventor project
