@@ -8,7 +8,7 @@ tags: open-source gsoc appinventor project
 
 ## Overview
 With the [workflow]({% post_url 2019-06-15-gsoc-2019-charts-workflow-implementation %}) for the [App Inventor][appinventor] Chart components established,
-the next step was to define the concepts and format of the Data that can be imported into the Chart. This post will cover both the design decisions
+the next step is to define the concepts and format of the Data that can be imported into the Chart. This post will cover both the design decisions
 made as well as the implementation of the Data importing.
 
 ## Sources
@@ -37,7 +37,7 @@ For this, a simple block suffices, with arguments to specify the entry's values,
 The notion of this block can then be extended to the multi-entry case, and it's as simple as that.
 
 ## Data Format
-As there are a lot of possible data sources where Data may be imported from, some more generalized format of Data should be established.
+As there are a lot of possible data sources where data may be imported from, some more generalized format of the data should be established.
 
 One of the key challenges in the design of Data Importing is the fact that some Charts use pairs as entries, while others may use more
 dimensions. An example of this is the Bubble Chart, the entries of which have 3 values - the x, y values and the radius of the bubble.
