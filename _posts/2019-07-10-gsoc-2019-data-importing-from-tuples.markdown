@@ -1,7 +1,7 @@
 ---
 layout: posts
 title:  "App Inventor Chart Components: Data Importing from Tuples"
-date:   2019-06-24 01:23:00 +0200
+date:   2019-07-10 00:00:00 +0200
 category: Open Source
 tags: open-source gsoc appinventor project
 ---
