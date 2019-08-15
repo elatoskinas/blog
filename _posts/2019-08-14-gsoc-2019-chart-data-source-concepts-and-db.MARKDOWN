@@ -12,7 +12,7 @@ a series of posts will follow in these two weeks documenting most of the feature
 [Chart components project]({% post_url 2019-06-01-gsoc-2019-first-steps %})!
 
 One of the core features of Chart Data Importing will be discussed in this blog post as a direct follow up to the post documenting
-[Data Import from Tuples]({% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}). This post will primarily focus on
+[Data Import from Tuples]({{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}). This post will primarily focus on
 the introduced Data Source concepts for the Chart components, as well as TinyDB & CloudDB importing.
 
 ## Data Source Concept
