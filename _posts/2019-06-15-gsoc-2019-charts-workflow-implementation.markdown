@@ -7,7 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ## Overview
-In the last post, I have previewed the [workflow]({% post_url 2019-06-10-gsoc-2019-workflow-preview %}) of the Charts components that I am working on
+In the last post, I have previewed the [workflow]({{ site.baseurl }}{% post_url 2019-06-10-gsoc-2019-workflow-preview %}) of the Charts components that I am working on
 for [App Inventor][appinventor]. In this post, I will dive into some implementation details and design choices.
 
 For the curious readers, the code changes revolving this post are available in a [pull request][charts-data-core-pr].
@@ -58,7 +58,7 @@ The following diagram summarizes the interactions and functionality of the class
 
 
 ## Implementation of the classes
-Let us now take a look at how the classes are represented in the code. To adapt to the design decision, the [prototype]({% post_url 2019-06-02-gsoc-2019-prototype %})
+Let us now take a look at how the classes are represented in the code. To adapt to the design decision, the [prototype]({{ site.baseurl }}{% post_url 2019-06-02-gsoc-2019-prototype %})
 implementation has been refactored, and of course, LineData is no longer a component (due to reasons mentioned in a previous section)
 
 ### Chart Component (View)
@@ -306,7 +306,7 @@ component. The dataset is added to the data component of the Chart, following a 
 Note the implementation of the LineChartModel, specifically the part where we add the Data Series to the Chart's data.
 
 Previously, there was an idea of having a single Data component attach to a Chart component. This kind of implementation was also done in
-the [prototype]({% post_url 2019-06-02-gsoc-2019-prototype %}). However, the concept was redefined to allow attaching multiple Data
+the [prototype]({{ site.baseurl }}{% post_url 2019-06-02-gsoc-2019-prototype %}). However, the concept was redefined to allow attaching multiple Data
 components to simplify the process and allow for responsive components in the Designer view.
 
 ## Designer Components

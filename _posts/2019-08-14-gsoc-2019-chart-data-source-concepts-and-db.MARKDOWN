@@ -9,7 +9,7 @@ tags: open-source gsoc appinventor project
 ## Overview
 It has been a while since the last post due to a highly busy period! A lot of blog posts were postponed, but now
 a series of posts will follow in these two weeks documenting most of the features that I have worked on the [App Inventor][appinventor]
-[Chart components project]({% post_url 2019-06-01-gsoc-2019-first-steps %})!
+[Chart components project]({{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %})!
 
 One of the core features of Chart Data Importing will be discussed in this blog post as a direct follow up to the post documenting
 [Data Import from Tuples]({{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}). This post will primarily focus on
@@ -934,7 +934,7 @@ features.
 Stay tuned!
 
 [appinventor]: https://appinventor.mit.edu/explore/
-[chart-tuple-import-post]: {% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}
+[chart-tuple-import-post]: {{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}
 [pr-charts-data-source-concepts]: https://github.com/lightingft/appinventor-sources/pull/106
 [pr-charts-tinydb]: https://github.com/lightingft/appinventor-sources/pull/107
 [pr-charts-tinydb2]: https://github.com/lightingft/appinventor-sources/pull/115

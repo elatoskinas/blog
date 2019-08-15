@@ -7,7 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ## Overview
-Following up on the [App Inventor][appinventor] [Chart components project]({% post_url 2019-06-01-gsoc-2019-first-steps %}),
+Following up on the [App Inventor][appinventor] [Chart components project]({{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}),
 this blog post will focus on a specific workflow aspect that allows to select the Chart type dynamically.
 
 A design decision was accepted to allow to select the Chart type on the fly, rather than having to use a different
@@ -17,7 +17,7 @@ the entire application, but the component itself holds all the possible Chart ty
 ## Component Design
 While the major focus is implementing a Chart type selection system, in fact the toughest part was adapting and
 finalizing the final component design that would be fit for this task. Following up on
-[one of the previous posts]({% post_url 2019-06-15-gsoc-2019-charts-workflow-implementation %}), I have decided to make
+[one of the previous posts]({{ site.baseurl }}{% post_url 2019-06-15-gsoc-2019-charts-workflow-implementation %}), I have decided to make
 an extension that would be more adaptable to this specific case.
 
 <figure>

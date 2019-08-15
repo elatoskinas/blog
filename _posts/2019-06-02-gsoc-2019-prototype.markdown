@@ -7,7 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ## Overview
-In continuation to the previous [previous blog post]({% post_url 2019-06-01-gsoc-2019-first-steps %}), this post will focus on a Line Chart Component
+In continuation to the previous [previous blog post]({{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}), this post will focus on a Line Chart Component
 prototype in [App Inventor][appinventor].
 
 The goal of prototyping in this case is to first determine whether the chosen approach is the right way to go, or whether revisions are needed to the concepts

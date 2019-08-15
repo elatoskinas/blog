@@ -7,7 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ## Overview
-With the [workflow]({% post_url 2019-06-15-gsoc-2019-charts-workflow-implementation %}) for the [App Inventor][appinventor] Chart components established,
+With the [workflow]({{ site.baseurl }}{% post_url 2019-06-15-gsoc-2019-charts-workflow-implementation %}) for the [App Inventor][appinventor] Chart components established,
 the next step is to define the concepts and format of the Data that can be imported into the Chart. This post will cover both the design decisions
 made as well as the implementation of the Data importing.
 

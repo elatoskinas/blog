@@ -7,7 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ## Overview
-Following up on the [Chart prototypes]({% post_url 2019-06-02-gsoc-2019-prototype %}), this post will focus on previewing the current progress
+Following up on the [Chart prototypes]({{ site.baseurl }}{% post_url 2019-06-02-gsoc-2019-prototype %}), this post will focus on previewing the current progress
 on the Charts components in [App Inventor][appinventor].
 
 This post will focus on the Components from the User perspective, meaning that implementation details will not be covered in this post.
