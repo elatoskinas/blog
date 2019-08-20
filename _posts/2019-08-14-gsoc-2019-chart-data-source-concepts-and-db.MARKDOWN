@@ -916,7 +916,7 @@ The following animation illustrates how the observed data keeps changing:
 
 
 ## Pull Requests
-For the curiuos readers, the main pull requests related to these features can be found here:
+For the curious readers, the main pull requests related to these features can be found here:
 * [Data Source Concepts][pr-charts-data-source-concepts]
 * [TinyDB Import][pr-charts-tinydb]
 * [TinyDB Import Update][pr-charts-tinydb2]
