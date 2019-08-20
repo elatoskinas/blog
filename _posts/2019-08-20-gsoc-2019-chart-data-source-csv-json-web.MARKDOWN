@@ -983,6 +983,7 @@ Stay tuned!
 
 [json-link]: https://www.json.org/
 [appinventor]: https://appinventor.mit.edu/explore/
+[chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}}
 [chart-data-source-concepts-post]: {{ site.baseurl }}{% post_url 2019-08-14-gsoc-2019-chart-data-source-concepts-and-db %}
 [pr-charts-csv-importing]: https://github.com/lightingft/appinventor-sources/pull/83
 [pr-charts-filebase-refactor]: https://github.com/lightingft/appinventor-sources/pull/94
