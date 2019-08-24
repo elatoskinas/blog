@@ -528,8 +528,9 @@ very soon summarizing the project.
 Stay tuned!
 
 [appinventor]: https://appinventor.mit.edu/explore/
-[chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
-[post-charts-pie-chart]: 
+[chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-08-24-gsoc-2019-chart-pie-chart %}
+[post-charts-pie-chart]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
+[mpandroidchart-grouping-code]: https://github.com/PhilJay/MPAndroidChart/blob/master/MPChartExample/src/main/java/com/xxmassdeveloper/mpchartexample/BarChartActivityMultiDataset.java
 
 [pr-chart-customization]: https://github.com/lightingft/appinventor-sources/pull/137
 [pr-bar-chart]: https://github.com/lightingft/appinventor-sources/pull/135
