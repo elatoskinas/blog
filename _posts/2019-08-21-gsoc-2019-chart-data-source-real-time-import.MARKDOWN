@@ -733,7 +733,6 @@ the last two Chart types scoped for the project -- the Bar Chart, and the Pie Ch
 
 Stay tuned!
 
-
 [appinventor]: https://appinventor.mit.edu/explore/
 [chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
 [chart-data-source-csv-json-web-post]: {{ site.baseurl }}{% post_url 2019-08-20-gsoc-2019-chart-data-source-csv-json-web %}
