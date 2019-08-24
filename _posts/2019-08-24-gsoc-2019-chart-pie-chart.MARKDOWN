@@ -8,7 +8,7 @@ mathjax: true
 ---
 
 ## Overview
-[Last post][post-charts-real-time-data-importing], I have wrapped up the implemeneted methods
+[Last post][post-charts-real-time-data-importing], I have wrapped up the implemented methods
 for importing data to the Charts. This post will cover one of the last two Chart types which were
 implemented in this project -- The Pie Chart. This post follows up directly
 from the [Chart type selection implementation post][post-charts-type-selection].
@@ -23,7 +23,7 @@ both the Designer and the Android implementations:
 
 ### Data
 With regards to the data of the Chart, it is quite important to note that the
-Pie Chart is quie a special case compared to other available Charts (e.g. Line,
+Pie Chart is quite a special case compared to other available Charts (e.g. Line,
 Area, Scatter and Bar). The key difference is that the Pie Chart does not have
 any axes, meaning that an x value attains a different interpretation.
 
@@ -178,7 +178,7 @@ is kept. In addition, a local List of the Legend Entries is kept to
 make removal and addition of entries easier.
 
 With regards to the Legend Entry, the following is done to construct it:
-1. The Legend Entry is instantiated, and it's label is set to the x value
+1. The Legend Entry is instantiated, and its label is set to the x value
 of the tuple to import.
 2. The color is set to the Legend Entry to correspond to the data entry
 which the Legend Entry represents.
@@ -218,7 +218,7 @@ of the colors should now be different.
 One interesting observation here is that we use the same index to remove the entry,
 and the Legend Entry. Note how in the addEntryFromTuple method we add an entry
 and a Legend Entry at the same time. This ensures that they both use the same
-index in the List, therefore we have ease of access when accesesing either
+index in the List, therefore we have ease of access when accessing either
 the data, or the Legend entry -- both correspond to the same index.
 
 ### View
@@ -293,7 +293,7 @@ a new Pie Chart upon creating a Data Series.
   }
 {% endhighlight %}
 
-In the snippet, note how the PieChartDataModel has 3 arguments. The actual pieChart is actually passeed
+In the snippet, note how the PieChartDataModel has 3 arguments. The actual pieChart is actually passed
 in to the PieChartDataModel due to it being linked to the Data Series. The PieChartDataModel is constructed
 as follows:
 
@@ -557,7 +557,7 @@ and apply the new Pie Chart radius. We will see later that we apply a
 completely different scaling to the innermost Pie Chart.
 
 The final step of the loop is scaling the Pie Chart itself, by
-also using a reducted scaling factor, which is calculated as follows:
+also using a reducing scaling factor, which is calculated as follows:
 \$$ s = h/100 $$
 
 The reasoning behind this calculation is the fact that the hole radius
@@ -667,7 +667,7 @@ Pie Chart).
 The reason why we don't set the radius of the hole to the
 local pie hole radius property is for the cases where there are
 quite a few rings (more than 3, for instance). In those scenarios,
-the innermost Pie Chart simply becocmes too large for all the outer
+the innermost Pie Chart simply becomes too large for all the outer
 rings, to the points where the innermost Pie Chart could be even
 6 times larger than any outermost ring. Thus, these calculations
 are used to somewhat equalize the Pie Chart rings.
@@ -679,12 +679,12 @@ Chart ring radius.
 #### Refreshing the Pie Chart View
 Upon adding new data, the Pie Chart View has to be refreshed.
 Since we treat all the rings as a single Pie Chart, we must
-also take care of refereshing all the Pie Chart rings accordingly.
+also take care of refreshing all the Pie Chart rings accordingly.
 
 The only part that we need to take care about the rings is
 an extra offset. Since enabling automatic legend offsetting
-(making the Chart smaller to fit the legned) would displace
-the outermost Pie Chart to no longer allign with the inner
+(making the Chart smaller to fit the legend) would displace
+the outermost Pie Chart to no longer align with the inner
 Pie Charts, we need to apply the same offset to all the
 Pie Chart rings whenever the Legend takes up more than 1
 line.
@@ -750,7 +750,7 @@ The Pie Chart ring offset updating is done in the following way:
   }
 {% endhighlight %}
 
-Except for thre conversion from pixels to dp, the calculation formula for
+Except for the conversion from pixels to dp, the calculation formula for
 the offset is quite simple (where o is the offset, l is the legend's needed
 height in dp):
 \$$ o = min( l/2.5, 25 ) $$
