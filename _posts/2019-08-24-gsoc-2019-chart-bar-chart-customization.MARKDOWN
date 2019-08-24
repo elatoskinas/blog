@@ -268,7 +268,7 @@ Otherwise, we then have to recalculate the bar space and width. A decision was m
 constant for consistency and simplicity.
 
 Since we must fit into the granularity (which we define to be 1), the following equation must be satisfied:
-\$$ (BarWidth + BarSpace) * #datasets + groupSpace = 1 $$
+\$$ (BarWidth + BarSpace) * \text{#datasets} + groupSpace = 1 $$
 
 The explanation behind this equation is that a single Data Set (Series) takes up $$ BarWidth + BarSpace $$
 space, which is to be represented as a fraction (value is no bigger than 1). For this reason, we multiply
@@ -276,12 +276,12 @@ this number by the number of Data Series in the Chart. Additionally, we add the 
 is added at the end of the bars.
 
 From this equation, we can derive the sum of the Bar Width and Bar Space:
-\$$ BarWidth + BarSpace = (1 - groupSpace)/#datasets $$
+\$$ BarWidth + BarSpace = \frac{(1 - groupSpace)}{\text{#datasets}} $$
 
 From this, it is entirely up to us how we would like to distribute the Bar width and space. I have
 personally found a 90% for the width and 10% for the space to work really well. Therefore,
 we can replace the equation as follows:
-\$$ 0.9x + 0.1x = (1 - groupSpace)/#datasets $$
+\$$ 0.9x + 0.1x = \frac{(1 - groupSpace)}{\text{#datasets}} $$
 
 We then have an equation with a single unknown (the x value), which we calculate, and from which
 we then derive the Bar Space and Bar Width parameters. We then set the Bar Width accordingly.
