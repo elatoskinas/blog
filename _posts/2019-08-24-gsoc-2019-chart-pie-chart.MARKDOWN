@@ -9,7 +9,8 @@ mathjax: true
 
 ## Overview
 [Last post][post-charts-real-time-data-importing], I have wrapped up the implemented methods
-for importing data to the Charts. This post will cover one of the last two Chart types which were
+for importing data to the Charts for the [App Inventor][appinventor] [Charts project][chart-components-first-post]
+that I have been working on. This post will cover one of the last two Chart types which were
 implemented in this project -- The Pie Chart. This post follows up directly
 from the [Chart type selection implementation post][post-charts-type-selection].
 
@@ -780,6 +781,7 @@ as well as various styling properties introduced for the Chart components.
 Stay tuned!
 
 [appinventor]: https://appinventor.mit.edu/explore/
+[chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
 [post-charts-real-time-data-importing]: {{ site.baseurl }}{% post_url 2019-08-21-gsoc-2019-chart-data-source-real-time-import %}
 [post-charts-type-selection]: {{ site.baseurl }}{% post_url 2019-07-27-gsoc-2019-chart-type-selection-area-scatter %}
 [post-charts-tuple-concepts]: {{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}
