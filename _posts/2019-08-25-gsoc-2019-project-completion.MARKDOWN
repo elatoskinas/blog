@@ -7,6 +7,7 @@ tags: open-source gsoc appinventor project
 ---
 
 ![Google Summer of Code Logo](https://upload.wikimedia.org/wikipedia/commons/8/85/GSoC-icon.svg){: .align-center width="300px"}
+![App Inventor Logo](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F61537230%2F30501861831%2F1%2Foriginal.20190501-220337?w=800&auto=compress&rect=0%2C15%2C700%2C350&s=39a8201164e1a1df2732b4b1b6c2d2a1){: .align-center height="300px"}
 
 ## Overview
 Throughout the last 3 months, I have worked on implementing Chart Components for [App Inventor][appinventor].
