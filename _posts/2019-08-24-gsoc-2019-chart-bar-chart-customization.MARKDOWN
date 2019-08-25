@@ -339,7 +339,7 @@ The second part of the method takes care of setting the maximum x value of
 the axis for the Bar Chart to ensure that all bars are visible.
 
 The calculation for the maximum x value is as follows:
-\$$ maxXValue = \text{START_X_VALUE} + groupWidth(GROUP_SPACE, barSpace) * maxEntries $$
+\$$ maxXValue = \text{START_X_VALUE} + \text{groupWidth(GROUP_SPACE, barSpace)} * maxEntries $$
 
 The reasoning behind this calculation is that we first take the starting x value
 of the group, and add the space taken up by all the grouped Data Series.
