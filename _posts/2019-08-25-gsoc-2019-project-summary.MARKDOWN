@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "App Inventor Chart Components: Project Completion"
+title:  "App Inventor Chart Components: Project Summary"
 date:   2019-08-25 19:35:00 +0200
 category: Open Source
 tags: open-source gsoc appinventor project
