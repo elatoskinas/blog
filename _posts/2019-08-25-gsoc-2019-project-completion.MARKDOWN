@@ -39,13 +39,13 @@ support for many more Data Sources.
 
 ## Challenges
 Initially, I expected the project to be relatively straight forward and rather simple. However,
-there were quite a few challenges that occured during the project. I would outline these 3 points
+there were quite a few challenges that occurred during the project. I would outline these 3 points
 to be hardest challenges faced during the project:
 
 1. Making use of a library that is not thread safe in asynchronous methods; The Charts library
 used on the Android side (MPAndroidChart) was not fully designed to support dynamic, asynchronous
 data importing. Crashes would often occur, and it took a while for me to pinpoint the issue.
-Exploring possible solutions wiithout modifying the library itself took more time than
+Exploring possible solutions without modifying the library itself took more time than
 any other individual feature, and this was a challenge that I had to postpone a few times in
 order to keep up with my schedule. In the end, I found a workaround which made copies of the
 data. Two pull requests cover the fix -- [Refresh, Chart Legend and t value fix][pr-chart-refresh-fix]
@@ -62,7 +62,7 @@ Moreover, I made sure to leave detailed comments on code which is not instantly 
 left TODOs on features which I think should still be worked on further in the future.
 
 3. Keeping up with the schedule of writing documentation. Generally, I found writing blog posts
-to be quite time consuming process which required full attention and a lot of focus. There
+to be quite time-consuming process which required full attention and a lot of focus. There
 have been quite a few weeks where I could not make a blog post in time due to various other
 matters to take care of, and somewhere around the 5th week I have simply dropped the idea
 of having a weekly blog post. In the end, however, I have written all the blog posts that I
