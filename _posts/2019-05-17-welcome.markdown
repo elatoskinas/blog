@@ -52,5 +52,5 @@ However, since I am quite adventurous and like to change direction often, you ma
 
 **Stay tuned for more!**
 
-[personal-website]: https://lightingft.github.io/
+[personal-website]: https://elatoskinas.github.io/
 [enlighten-works]: http://enlightenworks.blogspot.com/

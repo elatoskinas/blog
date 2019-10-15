@@ -121,7 +121,7 @@ focused on this project!
 
 [gsoc]: https://summerofcode.withgoogle.com/
 [project-link]: https://summerofcode.withgoogle.com/projects/?sp-page=2#5496355911368704
-[proposal]: https://lightingft.github.io/appinventor-gsoc2019/
+[proposal]: https://elatoskinas.github.io/appinventor-gsoc2019/
 [appinventor-github]: https://github.com/mit-cml/appinventor-sources
 [appinventor-web]: http://appinventor.mit.edu/explore/
 [appinventor-separator-pr]: https://github.com/mit-cml/appinventor-sources/pull/1590

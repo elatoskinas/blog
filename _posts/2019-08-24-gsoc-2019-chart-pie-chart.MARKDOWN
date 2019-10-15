@@ -786,5 +786,5 @@ Stay tuned!
 [post-charts-type-selection]: {{ site.baseurl }}{% post_url 2019-07-27-gsoc-2019-chart-type-selection-area-scatter %}
 [post-charts-tuple-concepts]: {{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}
 [post-mpandroidcharts-concentric-pie-charts]: {{ site.baseurl }}{% post_url 2019-06-24-mpandroidchart-concentric-pie-charts %}
-[pr-pie-chart]: https://github.com/lightingft/appinventor-sources/pull/120
-[pr-refresh-pie-legend]: https://github.com/lightingft/appinventor-sources/pull/129
+[pr-pie-chart]: https://github.com/elatoskinas/appinventor-sources/pull/120
+[pr-refresh-pie-legend]: https://github.com/elatoskinas/appinventor-sources/pull/129

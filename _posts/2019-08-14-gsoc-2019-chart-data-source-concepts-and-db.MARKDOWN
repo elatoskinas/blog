@@ -935,7 +935,7 @@ Stay tuned!
 
 [appinventor]: https://appinventor.mit.edu/explore/
 [chart-tuple-import-post]: {{ site.baseurl }}{% post_url 2019-07-10-gsoc-2019-data-importing-from-tuples %}
-[pr-charts-data-source-concepts]: https://github.com/lightingft/appinventor-sources/pull/106
-[pr-charts-tinydb]: https://github.com/lightingft/appinventor-sources/pull/107
-[pr-charts-tinydb2]: https://github.com/lightingft/appinventor-sources/pull/115
-[pr-charts-clouddb]: https://github.com/lightingft/appinventor-sources/pull/112
+[pr-charts-data-source-concepts]: https://github.com/elatoskinas/appinventor-sources/pull/106
+[pr-charts-tinydb]: https://github.com/elatoskinas/appinventor-sources/pull/107
+[pr-charts-tinydb2]: https://github.com/elatoskinas/appinventor-sources/pull/115
+[pr-charts-clouddb]: https://github.com/elatoskinas/appinventor-sources/pull/112

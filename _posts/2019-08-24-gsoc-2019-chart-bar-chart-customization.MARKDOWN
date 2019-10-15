@@ -532,5 +532,5 @@ Stay tuned!
 [post-charts-pie-chart]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
 [mpandroidchart-grouping-code]: https://github.com/PhilJay/MPAndroidChart/blob/master/MPChartExample/src/main/java/com/xxmassdeveloper/mpchartexample/BarChartActivityMultiDataset.java
 
-[pr-chart-customization]: https://github.com/lightingft/appinventor-sources/pull/137
-[pr-bar-chart]: https://github.com/lightingft/appinventor-sources/pull/135
+[pr-chart-customization]: https://github.com/elatoskinas/appinventor-sources/pull/137
+[pr-bar-chart]: https://github.com/elatoskinas/appinventor-sources/pull/135

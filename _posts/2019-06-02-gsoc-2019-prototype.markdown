@@ -249,8 +249,8 @@ The end result is summarized in this gif:
 
 [appinventor]: https://appinventor.mit.edu/explore/
 [mpandroidchart]: https://github.com/PhilJay/MPAndroidChart
-[pr-basic-charts]: https://github.com/lightingft/appinventor-sources/pull/18
-[pr-mock-basic-charts]: https://github.com/lightingft/appinventor-sources/pull/23
+[pr-basic-charts]: https://github.com/elatoskinas/appinventor-sources/pull/18
+[pr-mock-basic-charts]: https://github.com/elatoskinas/appinventor-sources/pull/23
 [charba]: https://github.com/pepstock-org/Charba
 [gwt]: http://www.gwtproject.org/
 [chart-js]: https://www.chartjs.org/

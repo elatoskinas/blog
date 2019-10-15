@@ -222,6 +222,6 @@ The next post will most likely follow up on the Data importing methods, since th
 
 
 [appinventor]: https://appinventor.mit.edu/explore/
-[pr-charts-redesign]: https://github.com/lightingft/appinventor-sources/pull/78
-[pr-area-chart]: https://github.com/lightingft/appinventor-sources/pull/86
-[pr-scatter-chart]: https://github.com/lightingft/appinventor-sources/pull/101
+[pr-charts-redesign]: https://github.com/elatoskinas/appinventor-sources/pull/78
+[pr-area-chart]: https://github.com/elatoskinas/appinventor-sources/pull/86
+[pr-scatter-chart]: https://github.com/elatoskinas/appinventor-sources/pull/101

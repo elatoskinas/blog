@@ -206,4 +206,4 @@ The full code (and some other MPAndroidChartExamples) is accessible in [GitHub][
 
 [mpandroidchart]: https://github.com/PhilJay/MPAndroidChart
 [stackoverflow-multi-pie]: https://stackoverflow.com/questions/47712972/is-it-possible-to-draw-a-two-layer-pie-chart
-[android-chart-examples]: https://github.com/lightingft/AndroidChartTests
+[android-chart-examples]: https://github.com/elatoskinas/AndroidChartTests

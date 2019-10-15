@@ -737,6 +737,6 @@ Stay tuned!
 [chart-components-first-post]: {{ site.baseurl }}{% post_url 2019-06-01-gsoc-2019-first-steps %}
 [chart-data-source-csv-json-web-post]: {{ site.baseurl }}{% post_url 2019-08-20-gsoc-2019-chart-data-source-csv-json-web %}
 [chart-data-source-concepts-post]: {{ site.baseurl }}{% post_url 2019-08-14-gsoc-2019-chart-data-source-concepts-and-db %}
-[pr-charts-real-time-data]: https://github.com/lightingft/appinventor-sources/pull/119
-[pr-charts-bluetooth-importing]: https://github.com/lightingft/appinventor-sources/pull/125
-[pr-charts-sensors]: https://github.com/lightingft/appinventor-sources/pull/141
+[pr-charts-real-time-data]: https://github.com/elatoskinas/appinventor-sources/pull/119
+[pr-charts-bluetooth-importing]: https://github.com/elatoskinas/appinventor-sources/pull/125
+[pr-charts-sensors]: https://github.com/elatoskinas/appinventor-sources/pull/141

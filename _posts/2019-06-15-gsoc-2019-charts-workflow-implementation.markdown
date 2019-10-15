@@ -477,4 +477,4 @@ on the status of the project. Stay tuned!
 [mpandroidchart]: https://github.com/PhilJay/MPAndroidChart
 [chartjs]: https://github.com/chartjs
 [mvc]: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
-[charts-data-core-pr]: https://github.com/lightingft/appinventor-sources/pull/37
+[charts-data-core-pr]: https://github.com/elatoskinas/appinventor-sources/pull/37
